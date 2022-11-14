@@ -5,7 +5,7 @@
     border-left: 1px solid black;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/../images/vk-logo.svg);
+    background-image: url(../../../../images/vk-logo.svg);
 }
 .h-socials__link:hover {
     opacity: 1;
