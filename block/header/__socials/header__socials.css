@@ -1,0 +1,6 @@
+.header__socials {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    z-index: 3;
+}
