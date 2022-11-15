@@ -3,9 +3,12 @@
     list-style-type: none;
     position: relative;
     z-index: 2;
+    padding: 0;
 }
 @media screen and (max-width: 768px) {
     .h-menu__wrap {
         display: block;
+        line-height: 35px;
+        right: 20px;
     }
 }

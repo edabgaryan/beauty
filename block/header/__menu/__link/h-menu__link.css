@@ -3,6 +3,7 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-transform: uppercase;
 }
 .h-menu__link:hover::after {
     opacity: 1;
@@ -15,4 +16,22 @@
     height: 2px;
     width: 0%;
     background: -webkit-linear-gradient(left, #af8a48 0%, #f3e594 100%);
+}
+
+@media screen and (max-width: 768px) {
+    .h-menu__link {
+       color: #e1e1e1ed;
+    }
+    .h-menu__link:hover::after {
+        opacity: 1;
+        width: 100%;
+        -webkit-transition: width 500ms linear 0ms;
+    }
+    .h-menu__link:after {
+        display: block;
+        content: '';
+        height: 2px;
+        width: 0%;
+        background: -webkit-linear-gradient(left, #af8a48 0%, #f3e594 100%);
+}
 }
