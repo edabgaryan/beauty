@@ -2,7 +2,7 @@
     color: white;
 }
 @media screen and (max-width: 400px) {
-.service__body .title {
+.service__title {
     font-size: 18px;
     max-width: 300px;
     text-align: center;
