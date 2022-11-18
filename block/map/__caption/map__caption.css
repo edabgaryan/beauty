@@ -1,0 +1,11 @@
+.map__caption {
+    width: 100%;
+    text-align: center;
+    background: #333;
+    padding: 20px 0;
+}
+@media screen and (max-width: 400px) {
+.map__caption {
+    padding: 0;
+}
+}

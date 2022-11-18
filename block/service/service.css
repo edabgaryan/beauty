@@ -1,0 +1,14 @@
+.service {
+    background: url(../../images/ф2.jpg) no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+@media screen and (max-width: 400px) {
+.service {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    }
+}

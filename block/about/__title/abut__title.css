@@ -1,0 +1,13 @@
+@media screen and (max-width: 420px) {
+.about__title {
+    font-size: 25px;
+}
+}
+@media screen and (max-width: 800px) {
+.section-title {
+    font-size: 3em;
+    }
+}
+.about__title {
+    font-size: 25px;
+}

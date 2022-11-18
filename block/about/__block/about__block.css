@@ -1,0 +1,6 @@
+.about__block {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-start;
+}

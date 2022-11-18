@@ -1,0 +1,13 @@
+.service__paragraph {
+    text-align: start;
+    margin-top: 4.9em;
+    margin-bottom: 4.8em;
+}
+@media screen and (max-width: 800px) {
+.service__paragraph {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 285px;
+    padding-left: 5px;
+    }
+}
