@@ -11,3 +11,88 @@
 @import url(./../block/header/__logo/header__logo.css);
 @import url(./../block/container/container.css);
 @import url(./../block/header/__wrap/header__wrap.css);
+
+@import url(../block/about/about.css);
+@import url(../block/about/__title/abut__title.css);
+@import url(../block/about/__photo/about__photo.css);
+@import url(../block/about/__body/about__body.css);
+@import url(../block/about/__block/about__block.css);
+@import url(../block/about/__btn/about__btn.css);
+
+@import url(../block/title/title.css);
+@import url(../block/paragraph/paragraph.css);
+@import url(../block/__btn/gold__btn.css);
+
+@import url(../block/service/service.css);
+@import url(../block/service/__wrap/service__wrap.css);
+@import url(../block/service/__title/service__title.css);
+@import url(../block/service/__paragraph/service__paragraph.css);
+@import url(../block/service/__list/service__list.css);
+@import url(../block/service/__link/service__link.css);
+@import url(../block/service/__item/service__item.css);
+@import url(../block/service/__body/service__body.css);
+@import url(../block/team/team.css);
+@import url(../block/team/__photo/team__photo.css);
+@import url(../block/team/__btn/team__btn.css);
+@import url(../block/team/__paragraph/team__paragraph.css);
+@import url(../block/team/__body/team__body.css);
+@import url(../block/team/__block/team__block.css);
+@import url(../block/team/__title/team__title.css);
+@import url(../block/advent/advent.css);
+@import url(../block/advent/__title/advant__title.css);
+@import url(../block/advent/__photo/advant__photo.css);
+@import url(../block/advent/__list/advant__list.css);
+@import url(../block/advent/__list/-title/advant__list-title.css);
+@import url(../block/advent/__list/-subtitle/advant__list-subtitle.css);
+@import url(../block/advent/__line/line-advant.css);
+@import url(../block/advent/__body/advant__body.css);
+@import url(../block/advent/__block/advant__block.css);
+
+
+@import url(../block/map/map.css);
+@import url(../block/footer/footer.css);
+@import url(../block/footer/__logo/footer__logo.css);
+@import url(../block/footer/__item/f-info__item.css);
+@import url(../block/footer/__info/footer__info.css);
+@import url(../block/footer/__copyrights/footer__copyrights.css);
+@import url(../block/map/map.css);
+@import url(../block/map/__title/map__title.css);
+@import url(../block/map/__paragraph/map__paragraph.css);
+@import url(../block/map/__caption/map__caption.css);
+@import url(../block/map/__block/map__block.css);
+
+* {
+  font-family: 'Gotham Pro', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+#test {
+  display: none;
+  max-width: 1360px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 70px;
+  }
+#test img {
+   max-width: 100%;
+   animation: none 2s linear forwards; 
+  }
+
+@keyframes img-in {
+    0% { filter: grayscale(100%); opacity: 0; transform: scale(1.05); }
+   50% { filter: grayscale(50%); opacity: 1; transform: scale(1); }
+  100% { filter: grayscale(0); }}
+@keyframes img-out {
+    0% { filter: grayscale(0); opacity: 1; transform: scale(1); }
+   30% { filter: grayscale(50%); }
+  100% { filter: grayscale(100%); opacity: 0; transform: scale(1.05); }}
+
+  .test1 {
+    position: absolute;
+    top: 100px;
+}
