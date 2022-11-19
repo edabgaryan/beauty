@@ -2,3 +2,9 @@
     padding-top: 65px;
     padding-bottom: 50px;
 }
+@media screen and (max-width: 470px) {
+    .about {
+        padding-top: 0;
+        padding-bottom: 50px;
+  }
+}
