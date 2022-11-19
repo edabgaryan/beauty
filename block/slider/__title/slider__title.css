@@ -1,0 +1,14 @@
+.slider__title {
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    margin-top: 190px;
+    margin-left: 60px;
+}
+@media screen and (max-width: 470px) {
+  .slider__title {
+    font-size: 15px;
+    margin-top: 85px;
+    margin-left: 40px;
+}
+}
