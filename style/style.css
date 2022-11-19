@@ -13,6 +13,7 @@
 @import url(./../block/header/__wrap/header__wrap.css);
 
 @import url(../block/about/about.css);
+@import url(../block/about/__paragraph/about__paragraph.css);
 @import url(../block/about/__title/abut__title.css);
 @import url(../block/about/__photo/about__photo.css);
 @import url(../block/about/__body/about__body.css);
@@ -61,6 +62,17 @@
 @import url(../block/map/__caption/map__caption.css);
 @import url(../block/map/__block/map__block.css);
 
+@import url(../block/slider/slider.css);
+@import url(../block/slider/__title/slider__title.css);
+@import url(../block/slider/__paragraph/slider__paragraph.css);
+@import url(../block/slider/__block/slider__block.css);
+@import url(../block/slider/__photo/slider__photo.css);
+
+@import url(../block/controls/controls.css);
+@import url(../block/controls/__btnPrev/btnPrev.css);
+@import url(../block/controls/__btnNext/btnNext.css);
+
+@import url(../block/hidden/hidden.css);
 * {
   font-family: 'Gotham Pro', sans-serif;
 }
@@ -71,28 +83,9 @@ img {
 a {
   text-decoration: none;
 }
-#test {
-  display: none;
-  max-width: 1360px;
-  margin: 0 auto;
-  overflow: hidden;
-  margin-top: 70px;
-  }
-#test img {
-   max-width: 100%;
-   animation: none 2s linear forwards; 
-  }
 
-@keyframes img-in {
-    0% { filter: grayscale(100%); opacity: 0; transform: scale(1.05); }
-   50% { filter: grayscale(50%); opacity: 1; transform: scale(1); }
-  100% { filter: grayscale(0); }}
-@keyframes img-out {
-    0% { filter: grayscale(0); opacity: 1; transform: scale(1); }
-   30% { filter: grayscale(50%); }
-  100% { filter: grayscale(100%); opacity: 0; transform: scale(1.05); }}
 
-  .test1 {
-    position: absolute;
-    top: 100px;
-}
+
+
+
+
