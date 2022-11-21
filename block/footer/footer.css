@@ -3,9 +3,9 @@
     padding-top: 55px;
     padding-bottom: 55px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .footer {
-        padding-top: 10px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
 }
