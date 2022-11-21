@@ -4,7 +4,7 @@
     background: #333;
     padding: 20px 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 .map__caption {
     padding: 0;
 }
