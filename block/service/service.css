@@ -6,7 +6,7 @@
     padding-top: 80px;
     padding-bottom: 70px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
 .service {
     padding-top: 35px;
     padding-bottom: 30px;
