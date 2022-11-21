@@ -1,4 +1,10 @@
 .slider__block {
-    position: relative;
-    margin-top: 70px;
+  position: relative;
+  margin-top: 70px;
+}
+@media screen and (max-width: 470px) {
+  .slider__block {
+    display: flex;
+    justify-content: center;
   }
+}
