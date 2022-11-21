@@ -17,7 +17,7 @@
     background-position:left center;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 768px) {
 .about__btn {
     width: 125px;
     left: 55%;
