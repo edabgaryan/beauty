@@ -1,0 +1,12 @@
+.contact__body {
+    position: relative;
+    background-image: url(../../../images/contact.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+    .contact__body {
+        background-position: right;
+    }
+}

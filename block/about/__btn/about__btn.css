@@ -1,0 +1,20 @@
+.about__btn {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #af8a48 0%, #f3e594 100%);
+}
+.about__btn:hover {
+    background-size:300% auto;
+    background-position:left center;
+}
+
+@media screen and (max-width: 768px) {
+.about__btn {
+    width: 125px;
+    left: 55%;
+    }
+}

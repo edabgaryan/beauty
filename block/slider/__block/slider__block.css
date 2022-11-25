@@ -1,0 +1,11 @@
+.slider__block {
+  position: relative;
+  margin-top: 70px;
+  animation-delay: 2s;
+}
+@media screen and (max-width: 768px) {
+  .slider__block {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,9 @@
+.team__body {
+    width: 50%;
+    margin-left: 16px;
+}
+@media screen and (max-width: 420px) {
+    .team__body {
+        width: 90%;
+    }
+}

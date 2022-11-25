@@ -1,0 +1,9 @@
+.service__paragraph {
+    text-align: start;
+}
+@media screen and (max-width: 800px) {
+.service__paragraph {
+    max-width: 285px;
+    padding-left: 15px;
+    }
+}

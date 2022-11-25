@@ -1,0 +1,9 @@
+.contact-page {
+    display: flex;
+}
+@media screen and (max-width: 1024px) {
+    .contact-page {
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+}

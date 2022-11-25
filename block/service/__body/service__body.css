@@ -1,0 +1,9 @@
+.service__body {
+    padding-left: 55px;
+    flex: 0 1 52%;
+}
+@media screen and (max-width: 550px) {
+    .service__body {
+        padding: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.contact__logo {
+    display: flex;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../../../images/logo-con.png);
+}
+@media screen and (max-width: 768px) {
+.contact__logo {
+    margin-left: 10px;
+}
+}

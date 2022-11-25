@@ -1,0 +1,12 @@
+.map__block {
+    position: absolute;
+    width: 56%;
+    margin-top: -51px;
+    left: 0;
+    right: 0;
+}
+@media screen and (max-width: 400px) {
+    .map__block {
+        width: 90%;
+    }
+    }
