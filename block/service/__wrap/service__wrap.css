@@ -1,8 +1,0 @@
-.service__wrap {
-    display: flex;
-}
-@media screen and (max-width: 420px) {
-    .service__wrap {
-        display: inline;
-    }
-}

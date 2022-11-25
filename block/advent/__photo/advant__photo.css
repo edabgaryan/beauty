@@ -1,8 +1,0 @@
-.advant__photo {
-    margin-right: 50px;
-}
-@media screen and (max-width: 470px) {
-    .advant__photo {
-        display: none;
-        }
-}

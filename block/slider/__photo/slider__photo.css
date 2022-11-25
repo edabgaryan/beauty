@@ -1,8 +1,0 @@
-.slider__photo {
-    object-fit: cover;
-}
-@media screen and (max-width: 470px) {
-    .slider__photo {
-        height: 350px;
-    }
-}

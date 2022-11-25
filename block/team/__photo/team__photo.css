@@ -1,9 +1,0 @@
-.team__photo {
-    display: block;
-    max-width: 100%;
-}
-@media screen and (max-width: 550px) {
-    .team__photo {
-        margin-bottom: 8px;
-    }
-}

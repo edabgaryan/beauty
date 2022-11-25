@@ -1,9 +1,0 @@
-.about__photo {
-    display: block;
-    max-width: 100%;
-}
-@media screen and (max-width: 767px) {
-.about__photo {
-    display: none;
-    }
-}
