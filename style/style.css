@@ -14,7 +14,7 @@
 
 @import url(../block/about/about.css);
 @import url(../block/about/__paragraph/about__paragraph.css);
-@import url(../block/about/__title/abut__title.css);
+@import url(../block/about/__title/about__title.css);
 @import url(../block/about/__photo/about__photo.css);
 @import url(../block/about/__body/about__body.css);
 @import url(../block/about/__block/about__block.css);
@@ -73,6 +73,19 @@
 @import url(../block/controls/__btnNext/btnNext.css);
 
 @import url(../block/hidden/hidden.css);
+@import url(../block/contact/contact.css);
+@import url(../block/contact/-page/contact-page.css);
+@import url(../block/contact/__title/contact__title.css);
+@import url(../block/contact/__span/contact__span.css);
+@import url(../block/contact/__paragraph/contact-page__paragraph.css);
+@import url(../block/contact/__map/contact-page__map.css);
+@import url(../block/contact/__iframe/contact-page__iframe.css);
+@import url(../block/contact/__body/contact__body.css);
+@import url(../block/contact/-text/contact-text.css);
+@import url(../block/contact/-item/contact-item.css);
+@import url(../block/contact/-page/__body/contact-page__body.css);
+@import url(../block/value/value.css);
+@import url(../block/contact/__logo/contact__logo.css);
 * {
   font-family: 'Gotham Pro', sans-serif;
 }
