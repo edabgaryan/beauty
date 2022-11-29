@@ -5,7 +5,7 @@
     z-index: 2;
     padding: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .h-menu__wrap {
         display: block;
         line-height: 35px;
