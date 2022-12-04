@@ -1,0 +1,19 @@
+.price__service {
+    display: flex;
+    justify-content: space-between;
+    max-width: 870px;
+    width: 870px;
+    height: 60px;
+}
+/*Чередование*/
+.price__service:nth-child(odd) {
+    background: white;
+  }
+  .price__service:nth-child(even) {
+    background: #9b98980f;
+}
+@media  (max-width: 768px) {
+    .price__service {
+      width: 100%;
+    }
+}

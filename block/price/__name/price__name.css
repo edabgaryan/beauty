@@ -1,0 +1,11 @@
+.price__name {
+    font-size: 17px;
+    padding-left: 30px;
+}
+  @media  (max-width: 768px) {
+    .price__name {
+      font-size: 13px;
+      padding-left: 15px;
+      max-width: 200px;
+    }
+}
