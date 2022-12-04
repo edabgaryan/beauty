@@ -104,7 +104,12 @@
 @import url(../block/popup/popup__picture/__close/popup__close.css);
 @import url(../block/popup/popup__picture/-photo/popup__picture-photo.css);
 
-
+/*Price*/
+@import url(../block/price/__tabs/p-page__tabs.css);
+@import url(../block/price/__sum/price__sum.css);
+@import url(../block/price/__subtitle/price__subtitle.css);
+@import url(../block/price/__service/price__service.css);
+@import url(../block/price/__name/price__name.css);
 
 
 * {
@@ -118,28 +123,3 @@ img {
 a {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
