@@ -7,3 +7,8 @@
 .tabs__content.active  {
     display: block;
 }
+@media  (max-width: 768px) {
+    .tabs__content {
+        margin-left: 15px;
+    }
+}
