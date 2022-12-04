@@ -1,7 +1,6 @@
 .h-menu__link {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -18,7 +17,7 @@
     background: -webkit-linear-gradient(left, #af8a48 0%, #f3e594 100%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .h-menu__link {
        color: #e1e1e1ed;
     }

@@ -11,7 +11,7 @@
 @import url(./../block/header/__logo/header__logo.css);
 @import url(./../block/container/container.css);
 @import url(./../block/header/__wrap/header__wrap.css);
-
+/*About*/
 @import url(../block/about/about.css);
 @import url(../block/about/__paragraph/about__paragraph.css);
 @import url(../block/about/__title/about__title.css);
@@ -23,7 +23,7 @@
 @import url(../block/title/title.css);
 @import url(../block/paragraph/paragraph.css);
 @import url(../block/__btn/gold__btn.css);
-
+/*Service*/
 @import url(../block/service/service.css);
 @import url(../block/service/__wrap/service__wrap.css);
 @import url(../block/service/__title/service__title.css);
@@ -32,6 +32,7 @@
 @import url(../block/service/__link/service__link.css);
 @import url(../block/service/__item/service__item.css);
 @import url(../block/service/__body/service__body.css);
+/*Team*/
 @import url(../block/team/team.css);
 @import url(../block/team/__photo/team__photo.css);
 @import url(../block/team/__btn/team__btn.css);
@@ -39,6 +40,7 @@
 @import url(../block/team/__body/team__body.css);
 @import url(../block/team/__block/team__block.css);
 @import url(../block/team/__title/team__title.css);
+/*Advent*/
 @import url(../block/advent/advent.css);
 @import url(../block/advent/__title/advant__title.css);
 @import url(../block/advent/__photo/advant__photo.css);
@@ -49,7 +51,7 @@
 @import url(../block/advent/__body/advant__body.css);
 @import url(../block/advent/__block/advant__block.css);
 
-
+/*Map*/
 @import url(../block/map/map.css);
 @import url(../block/footer/footer.css);
 @import url(../block/footer/__logo/footer__logo.css);
@@ -61,17 +63,17 @@
 @import url(../block/map/__paragraph/map__paragraph.css);
 @import url(../block/map/__caption/map__caption.css);
 @import url(../block/map/__block/map__block.css);
-
+/*Slider*/
 @import url(../block/slider/slider.css);
 @import url(../block/slider/__title/slider__title.css);
 @import url(../block/slider/__paragraph/slider__paragraph.css);
 @import url(../block/slider/__block/slider__block.css);
 @import url(../block/slider/__photo/slider__photo.css);
-
+/*Controls*/
 @import url(../block/controls/controls.css);
 @import url(../block/controls/__btnPrev/btnPrev.css);
 @import url(../block/controls/__btnNext/btnNext.css);
-
+/*Contact*/
 @import url(../block/hidden/hidden.css);
 @import url(../block/contact/contact.css);
 @import url(../block/contact/-page/contact-page.css);
@@ -86,8 +88,28 @@
 @import url(../block/contact/-page/__body/contact-page__body.css);
 @import url(../block/value/value.css);
 @import url(../block/contact/__logo/contact__logo.css);
+
+/*Gallery*/
+@import url(../block/gallery/gallery.css);
+@import url(../block/gallery/__title/gallery__title.css);
+@import url(../block/gallery/__tabs/g-page__tabs.css);
+@import url(../block/gallery/__content/tabs__content.css);
+@import url(../block/gallery/__caption/tabs__caption.css);
+@import url(../block/gallery/__caption/-link/tabs__caption-link.css);
+@import url(../block/work/work-list.css);
+@import url(../block/work/__image/work__image.css);
+@import url(../block/work/-item/work-item.css);
+@import url(../block/work/-item/__photo/work-item__photo.css);
+@import url(../block/popup/popup__picture/popup__picture.css);
+@import url(../block/popup/popup__picture/__close/popup__close.css);
+@import url(../block/popup/popup__picture/-photo/popup__picture-photo.css);
+
+
+
+
 * {
   font-family: 'Gotham Pro', sans-serif;
+  box-sizing: border-box;
 }
 img {
   display: block;
@@ -96,6 +118,25 @@ img {
 a {
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
