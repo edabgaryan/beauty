@@ -1,0 +1,10 @@
+.service__title {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+.service__title {
+    font-size: 18px;
+    max-width: 300px;
+    text-align: center;
+    }
+}

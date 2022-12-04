@@ -1,0 +1,9 @@
+.work__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+  .work__image:hover {
+    transform: scale(1.2) ;
+}

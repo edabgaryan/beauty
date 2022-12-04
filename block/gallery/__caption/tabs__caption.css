@@ -1,0 +1,5 @@
+.tabs__caption {
+    list-style: none;
+    flex: 1 0 23%;
+    max-width: 280px;
+}

@@ -1,0 +1,13 @@
+.btnPrev {
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 40px;
+    border: 0;
+}
+@media screen and (max-width: 470px) {
+  .btnPrev {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,11 @@
+.f-info__item {
+    color: white;
+    opacity: 0.5;
+    font-size: 13px;
+    padding-right: 15px;
+}
+@media screen and (max-width: 650px) {
+    .f-info__item {
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,6 @@
+.contact-text {
+    display:  flex;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 10px;
+}

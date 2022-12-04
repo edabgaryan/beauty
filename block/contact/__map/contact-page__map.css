@@ -1,0 +1,9 @@
+.contact-page__map {
+    margin-left: 50px;
+}
+@media screen and (max-width: 660px) {
+    .contact-page__map {
+        margin: 0;
+        width: 100%;
+    }
+}

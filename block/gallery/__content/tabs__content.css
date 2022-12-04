@@ -1,0 +1,9 @@
+.tabs__content {
+    position: relative;
+    display: none;
+    margin-left: 30px;
+}
+
+.tabs__content.active  {
+    display: block;
+}

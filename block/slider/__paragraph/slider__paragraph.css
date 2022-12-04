@@ -1,0 +1,14 @@
+.slider__paragraph {
+    position: absolute;
+    color: white;
+    margin-top: 310px;
+    margin-left: 60px;
+}
+@media screen and (max-width: 470px) {
+  .slider__paragraph {
+    font-size: 10px;
+    margin-top: 290px;
+    width: 290px;
+    margin-left: 0;
+  }
+}

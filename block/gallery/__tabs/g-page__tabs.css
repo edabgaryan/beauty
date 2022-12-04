@@ -1,0 +1,9 @@
+.g-page__tabs {
+    display: flex;
+    justify-content:  space-between;
+}
+@media  (max-width: 768px) {
+    .g-page__tabs {
+        flex-wrap: wrap;
+    }
+}

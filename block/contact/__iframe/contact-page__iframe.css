@@ -1,0 +1,10 @@
+.contact-page__iframe {
+    width: 700px;
+    height: 400px;
+    border-radius: 5%;
+}
+@media screen and (max-width: 1024px) {
+    .contact-page__iframe {
+        width: 100%;
+    }
+}
