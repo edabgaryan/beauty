@@ -1,5 +1,6 @@
 .gallery__title {
     font-size: 25px;
+    width: 375px;
 }
   .gallery__title:after {
     display: block;
