@@ -1,4 +1,4 @@
-[Сылка на Проект/Link to the Project](https://edgar0995.github.io/beauty/#)
+[Сылка на Проект/Link to the Project](https://edabgaryan.github.io/beauty/)
 
 Используемые технологии
 
