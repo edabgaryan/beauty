@@ -86,6 +86,12 @@
 @import url(../block/contact/-page/__body/contact-page__body.css);
 @import url(../block/value/value.css);
 @import url(../block/contact/__logo/contact__logo.css);
+
+/*Online Zapis btn*/
+@import url(../block/online__zapis/online__zapis.css);
+@import url(../block/online__zapis/-text/online__zapis-text.css);
+
+
 * {
   font-family: 'Gotham Pro', sans-serif;
 }
