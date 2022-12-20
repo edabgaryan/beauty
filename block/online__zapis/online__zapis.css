@@ -1,0 +1,47 @@
+.online__zapis-button {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  color: white;
+  background-color: rgba(22, 40, 33, 0.897);
+
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.online__zapis-button:before,
+.online__zapis-button:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 1px solid rgb(22 40 33);
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: online-zapis 1.5s linear infinite;
+  opacity: 0;
+}
+.online__zapis-button:after {
+  animation-delay: 0.5s;
+}
+@keyframes online-zapis {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
