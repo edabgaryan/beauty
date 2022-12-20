@@ -111,6 +111,10 @@
 @import url(../block/price/__service/price__service.css);
 @import url(../block/price/__name/price__name.css);
 
+/*Online Zapis btn*/
+@import url(../block/online__zapis/online__zapis.css);
+@import url(../block/online__zapis/-text/online__zapis-text.css);
+
 
 * {
   font-family: 'Gotham Pro', sans-serif;
