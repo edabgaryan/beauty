@@ -1,15 +1,8 @@
-.work-listt {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 15px;
-}
 .work-list {
-    margin: 0 auto 92px;
-    display: grid;
-    max-width: calc(100% - 96px);
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+  margin: 0 auto 92px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .work-list {
